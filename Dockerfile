@@ -1,7 +1,7 @@
 # Inspired by https://github.com/danielwhatmuff/robot-docker.git
 
 FROM alpine:latest
-RUN apk add --no-cache curl ca-certificates
+RUN apk add --no-cache curl git ca-certificates
 
 LABEL name="Docker image for the Robot Framework http://robotframework.org/"
 
